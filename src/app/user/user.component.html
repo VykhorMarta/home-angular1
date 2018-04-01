@@ -1,0 +1,18 @@
+
+
+<div  class="container">
+
+    <div class="panel panel-primary" *ngFor="let all of users">
+      <div class="panel-heading">All users</div>
+      <div class="panel-body"> <dt>{{all.name}}</dt>
+        <dd>{{all.years}}</dd>
+       </div>
+    </div>
+
+
+   
+    
+  
+  
+  <button class="btn btn-primary" (click) = "goToAdmin()">Admin enter</button>
+</div>
